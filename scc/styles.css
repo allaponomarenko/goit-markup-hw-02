@@ -1,0 +1,23 @@
+dody {
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+	color: #2a2a2a;
+    background-color: #FFF;;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+  
