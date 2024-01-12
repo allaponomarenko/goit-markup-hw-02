@@ -1,7 +1,7 @@
 dody {
-    font-family: 'Roboto', 'Verdana', sans-serif;
-	  color: #2a2a2a;
-    background-color: #FFF;;
+  font-family: 'Raleway', 'Roboto', 'Verdana', sans-serif; 
+  color: #2a2a2a;
+  background-color: #FFF;
 }
 
 a {
@@ -18,19 +18,31 @@ a {
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
   
   }
+  .logo:hover {
+    color: #404BBF;
+  }
+  
+  
+  button:hover,
+  button:focus {
+  color: #404BBF;
+  }
+
+  .order-service:hover {
+    cursor: pointer;
+  }
+  
 
   .heder-nav {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -40,11 +52,14 @@ a {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
   }
+
+  a:hover {
+    color: #404BBF;
+  }
+  
 
 /*main*/
 
@@ -55,7 +70,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
@@ -66,7 +80,6 @@ a {
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -79,7 +92,6 @@ h2 {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -90,7 +102,6 @@ h3 {
   color: #2E2F42;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -100,8 +111,6 @@ h3 {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
@@ -112,8 +121,6 @@ h3 {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
@@ -124,8 +131,6 @@ h3 {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
   background-color: #F4F4FD;
@@ -137,7 +142,6 @@ h3 {
   color: #4D5AE5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
@@ -149,8 +153,6 @@ h3 {
   width: 264px;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px; 
   
