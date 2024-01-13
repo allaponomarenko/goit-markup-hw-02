@@ -1,4 +1,4 @@
-dody {
+body {
   font-family: 'Roboto', sans-serif; 
   color: #434455;
   background-color: #FFFFFF;
@@ -25,12 +25,24 @@ a {
     line-height: 1.17;
   }
 
-  span {
-    color: #2e2f42;
-  }
-  .logo:hover {
+  .logo:hover,
+  .logo:focus {
     color: #404BBF;
   }
+
+
+  .studio-header {
+    color: #2e2f42;
+  }
+
+  .studio-header:hover,
+  .studio-header:focus {
+
+  }
+
+  
+  
+
   
   
   button:hover,
@@ -66,6 +78,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
     color:  #434455;
+    
+  }
+  .link-number {
+    color:  #434455;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
 
@@ -78,6 +96,10 @@ a {
 
 /*section 1*/
 
+.main-title {
+  background-color: #2E2F42;
+}
+
   .title {
     color: #FFFFFF;
     text-align: center;
@@ -86,6 +108,7 @@ a {
     font-weight: 700;
     letter-spacing: 1.12px;
     background-color: #2e2f42;
+    line-height: 1.07;
 }
 
 .order-service {
@@ -99,6 +122,14 @@ a {
   line-height: 1.5;
   font-family: "Roboto", sans-serif; 
   cursor: pointer
+}
+
+.order-service:hover {
+  background-color: #404BBF;
+}
+
+.order-service:focus {
+  background-color: #404BBF;
 }
 
 /*section 2*/
@@ -149,7 +180,7 @@ h3 {
 
 .our-team {
   background-color: #F4F4FD;
-  line-height: 1.2
+  line-height: 1.11;
 }
 
 .main-3-p {
@@ -170,7 +201,7 @@ h3 {
 /*section Our Portfolio*/
 
 .title-portfolio {
-  line-height: 1.2;
+  line-height: 1.11;
 }
 
 .list-portfolio {
