@@ -1,7 +1,7 @@
 dody {
-  font-family: 'Raleway', 'Roboto', 'Verdana', sans-serif; 
-  color: #2a2a2a;
-  background-color: #FFF;
+  font-family: 'Roboto', sans-serif; 
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -18,11 +18,15 @@ a {
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-  
+    line-height: 1.17;
+  }
+
+  span {
+    color: #2e2f42;
   }
   .logo:hover {
     color: #404BBF;
@@ -44,7 +48,6 @@ a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.32px;
   }
 
@@ -52,9 +55,11 @@ a {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.32px;
+    font-style: normal;
+    color: #404bbf;
   }
+
 
   a:hover {
     color: #404BBF;
@@ -65,27 +70,32 @@ a {
 
 /*section 1*/
 
-  h1 {
-    color: #2E2F42;
+  .title {
+    color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
     letter-spacing: 1.12px;
+    line-height: 1.07;
 }
 
 .order-service {
-  color: #2E2F42;
+  color: #FFFFFF;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.64px;
+  background-color: #404BBF;
+  font-family: "Roboto", sans-serif; 
+  cursor: pointer
 }
 
 /*section 2*/
+
+
+
 
 h2 {
   color: #2E2F42;
@@ -93,9 +103,9 @@ h2 {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  line-height: 1.11;
 }
 
 h3 {
@@ -103,7 +113,6 @@ h3 {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.4px;
 }
 
@@ -111,27 +120,51 @@ h3 {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.32px;
 }
 
 /*section 3*/
 
+.galery {
+  background-color: #F4F4FD;
+}
+
+
+
+.our-team {
+  background-color: #F4F4FD;
+  line-height: 1.11
+}
+
 .main-3-p {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.32px;
 }
 
+.personal {
+
+}
+
+.imagines {
+  background-color: #FFFFFF;
+}
+
 /*section Our Portfolio*/
+
+.title-portfolio {
+  line-height: 1.11;
+}
+
+.list-portfolio {
+  
+}
 
 .our-portfolio {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.32px;
   background-color: #F4F4FD;
 }
@@ -140,12 +173,16 @@ h3 {
 
 .logo-footer {
   color: #4D5AE5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  line-height: 1.17;
+}
+
+.logo-footer-studio {
+  color: #f4f4fd;
 }
 
 .footer-p {
@@ -153,13 +190,11 @@ h3 {
   width: 264px;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.32px; 
   
 }
 
 .footer {
-  width: 1440px;
   height: 312px;
   flex-shrink: 0;
   background-color: #2E2F42;
