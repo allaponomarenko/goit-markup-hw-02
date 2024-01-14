@@ -53,6 +53,23 @@ a {
   .order-service:hover {
     cursor: pointer;
   }
+
+  .header-home {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .header-home:hover {
+    color: #404bbf;
+  }
+
+  .header-home:focus {
+    color: #404bbf;
+  }
+
   
 
   .header-list {
@@ -235,7 +252,6 @@ h3 {
 
 .footer-p {
   color: #F4F4FD;
-  width: 264px;
   font-family: Roboto;
   font-size: 16px;
   letter-spacing: 0.32px; 
